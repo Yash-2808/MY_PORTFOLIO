@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Portfolio Preview](images/portfolio-website.png)
+![Portfolio Preview](images/ChatGPT Image Mar 21, 2026, 12_30_30 PM.png)
 
 **A premium, fully responsive personal portfolio website featuring glassmorphic UI, interactive 3D backgrounds, AI-powered chat assistant, and smooth page transitions.**
 
