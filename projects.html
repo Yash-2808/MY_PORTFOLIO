@@ -1,0 +1,522 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Projects - Yash Srivastava</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Projects - Yash Srivastava">
+    <meta name="keywords" content="personal, projects">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/main.css?v=1.0.2" />
+
+    <!-- Google Web fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Modern Display Font for headings -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+
+    <!-- Font icons -->
+    <link rel="stylesheet" href="icon-fonts/flat-icon/flaticon.css" />
+    <link rel="stylesheet" href="icon-fonts/font-awesome/css/all.min.css" />
+
+
+    <style>
+        /* Modern Reset & Base Enhancements */
+        * {
+            backdrop-filter: none !important;
+            -webkit-backdrop-filter: none !important;
+            filter: none !important;
+        }
+
+
+        body {
+            background: transparent !important;
+            font-family: 'Poppins', sans-serif;
+            color: #d1d1d1;
+        }
+
+        body>canvas {
+            position: fixed !important;
+            top: 0;
+            left: 0;
+            width: 100% !important;
+            height: 100% !important;
+            z-index: -1 !important;
+        }
+
+        .page-cover,
+        .container,
+        .page-wrapper,
+        #page-scroll,
+        .barba-wrapper,
+        main[data-barba="container"] {
+            background: transparent !important;
+        }
+    </style>
+</head>
+
+<body class="scroll-animation-on dark-version without-wrapper">
+
+    <!-- Preloader  -->
+    <div id="loader" class="preloader">
+        <div class="loading">
+            <div class="loader-container">
+                <div class="loader-logo">
+                    <div class="loader-ring"></div>
+                    <div class="loader-ring ring-2"></div>
+                </div>
+                <div class="loader-text">
+                    <div class="dots">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Preloader End -->
+
+    <div class="page-cover">
+        <div id="page-scroll">
+            <div class="barba-wrapper" data-barba="wrapper">
+                <main data-barba="container">
+                    <!-- Page Wrapper -->
+                    <div class="container">
+                        <div class="page-wrapper">
+
+                            <header id="fixed">
+                                <div class="hamburger hamburger--elastic">
+                                    <span class="hamburger-box"> <span class="hamburger-inner"></span> </span>
+                                </div>
+                                <nav>
+                                    <ul>
+                                        <li><a href="index.html" class="nav-link">Home</a></li>
+                                        <li><a href="resume.html" class="nav-link">Resume</a></li>
+                                        <li><a class="active" href="projects.html" class="nav-link">Projects</a></li>
+                                        <li><a href="blog.html" class="nav-link">Blog</a></li>
+                                        <li><a href="contact.html" class="nav-link">Contact</a></li>
+                                    </ul>
+                                </nav>
+                            </header>
+
+                            <div class="spacer-75"></div>
+
+                            <!-- Page Caption -->
+                            <div class="projects-header">
+                                <div class="header-accent"></div>
+                                <h1 class="modern-title">My Projects</h1>
+                            </div>
+
+                            <!-- Filter -->
+                            <div class="premium-filters">
+                                <a href="#" data-filter="*" class="active-filter">All Works</a>
+                                <a href="#" data-filter="machine-learning">Machine Learning</a>
+                                <a href="#" data-filter="web-development">Web Development</a>
+                            </div>
+
+                            <!-- Horizontal Scroll Wrapper -->
+                            <div class="horizontal-scroll-wrapper" id="scrollWrapper">
+                                <div class="premium-grid" id="projectsGrid">
+
+                                    <!-- Project 1 -->
+                                    <a href="https://github.com/Yash-2808/Distracted-Driver-Detection-using-deep-learning"
+                                        class="project-card machine-learning" data-title="Driver Distraction AI"
+                                        data-category="Machine Learning"
+                                        data-desc="A Deep Learning based system to detect distracted drivers and alert them in real-time. This project leverages computer vision to monitor driver behavior."
+                                        data-tech="Python, TensorFlow, Keras, OpenCV" data-type="image"
+                                        data-src="images/ChatGPT Image Mar 21, 2026, 12_30_30 PM.png">
+                                        <div class="project-media">
+                                            <img src="images/ChatGPT Image Mar 21, 2026, 12_30_30 PM.png"
+                                                alt="Driver Distraction AI" class="project-image" loading="lazy"
+                                                decoding="async">
+                                        </div>
+                                        <div class="project-label">
+                                            <div class="case-text">Driver Distraction AI</div>
+                                        </div>
+                                        <div class="project-icon"><i class="fa-solid fa-expand"></i></div>
+                                    </a>
+
+                                    <!-- Project: Plant Disease Recognition -->
+                                    <a href="https://github.com/Yash-2808/Plant-Disease-Recognition-using-CNN"
+                                        class="project-card machine-learning" data-title="Plant Disease Recognition AI"
+                                        data-category="Machine Learning"
+                                        data-desc="An advanced Deep Learning project focused on identifying various plant diseases using Convolutional Neural Networks (CNN). This system helps in early detection and diagnosis of crop health issues to improve agricultural yield."
+                                        data-tech="Python, CNN, TensorFlow, Keras, Jupyter Notebook" data-type="image"
+                                        data-src="images/plant-disease.png">
+                                        <div class="project-media">
+                                            <img src="images/plant-disease.png" alt="Plant Disease Recognition AI"
+                                                class="project-image" loading="lazy" decoding="async">
+                                        </div>
+                                        <div class="project-label">
+                                            <div class="case-text">Plant Disease Recognition AI</div>
+                                        </div>
+                                        <div class="project-icon"><i class="fa-solid fa-expand"></i></div>
+                                    </a>
+
+                                    <!-- Project: Chemical Equipment Visualizer -->
+                                    <a href="https://github.com/Yash-2808/Chemical-Equipment-Parameter-Visualizer"
+                                        class="project-card web-development" data-title="Chemical Equipment Visualizer"
+                                        data-category="Web Development"
+                                        data-desc="A modern hybrid web and desktop application for visualizing and analyzing chemical equipment parameters from CSV data. Features include automated data processing with Pandas, interactive Chart.js visualizations, and professional PDF report generation across both React web and PyQt5 desktop interfaces."
+                                        data-tech="Python, Django, React, PyQt5, Pandas" data-type="image"
+                                        data-src="images/chemical-visualizer.png">
+                                        <div class="project-media">
+                                            <img src="images/chemical-visualizer.png"
+                                                alt="Chemical Equipment Visualizer" class="project-image" loading="lazy"
+                                                decoding="async">
+                                        </div>
+                                        <div class="project-label">
+                                            <div class="case-text">Chemical Equipment Visualizer</div>
+                                        </div>
+                                        <div class="project-icon"><i class="fa-solid fa-expand"></i></div>
+                                    </a>
+
+                                    <!-- Project: Medie Genie App -->
+                                    <a href="https://kzmlzy5z83lmaschw1u2.lite.vusercontent.net/"
+                                        class="project-card web-development" data-title="Medie Genie App"
+                                        data-category="Web Development"
+                                        data-desc="All-in-one platform for emergency services, appointment scheduling, remote healthcare communication, medical record management, and home pathology visits. Designed to bring doctors, tests, and records together in one easy-to-use application."
+                                        data-tech="Frontend, Database" data-type="image"
+                                        data-src="images/works/medie-genie.png">
+                                        <div class="project-media">
+                                            <img src="images/works/medie-genie.png" alt="Medie Genie App"
+                                                class="project-image" loading="lazy" decoding="async">
+                                        </div>
+                                        <div class="project-label">
+                                            <div class="case-text">Medie Genie App</div>
+                                        </div>
+                                        <div class="project-icon"><i class="fa-solid fa-expand"></i></div>
+                                    </a>
+
+
+
+                                </div> <!-- End Premium Grid -->
+                            </div> <!-- End Horizontal Scroll Wrapper -->
+
+                        </div>
+                        <!-- page wrapper end -->
+                    </div>
+                    <!-- container -->
+                    <!-- FOOTER -->
+                    <footer>
+                        <div class="container">
+                            <div class="footer-inner">
+                                <div class="footer-links">
+                                    <a href="https://linkedin.com/in/yash-srivastava-20b710291" target="_blank"
+                                        class="footer-link-item" aria-label="LinkedIn">
+                                        <i class="fa-brands fa-linkedin-in"></i>
+                                    </a>
+                                    <a href="https://github.com/Yash-2808" target="_blank" class="footer-link-item"
+                                        aria-label="GitHub">
+                                        <i class="fa-brands fa-github"></i>
+                                    </a>
+                                    <a href="mailto:yashshri682@gmail.com" class="footer-link-item" aria-label="Email">
+                                        <i class="fa-solid fa-envelope"></i>
+                                    </a>
+                                    <a href="https://wa.me/918791660165" target="_blank" class="footer-link-item"
+                                        aria-label="WhatsApp">
+                                        <i class="fa-brands fa-whatsapp"></i>
+                                    </a>
+                                    <a href="assets/resume.pdf" download="Yash_Srivastava_Resume.pdf"
+                                        data-barba-prevent="all" class="footer-link-item" aria-label="Resume">
+                                        <i class="fa-solid fa-file-pdf"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </footer>
+                </main>
+            </div>
+        </div>
+    </div>
+
+    <!-- Premium Project Modal -->
+    <div class="project-modal-overlay" id="projectModal">
+        <div class="project-modal-content">
+            <button class="modal-close-btn" id="modalClose"><i class="fa-solid fa-xmark"></i></button>
+            <div class="modal-body">
+                <div class="modal-media-container" id="modalMedia">
+                    <!-- Image or video gets injected here -->
+                </div>
+                <div class="modal-details">
+                    <span class="modal-category" id="modalCategory">Category</span>
+                    <h2 class="modal-title" id="modalTitle">Project Title</h2>
+                    <div class="modal-meta" id="modalMeta">
+                        <!-- Tech tags go here -->
+                    </div>
+                    <div class="modal-description" id="modalDescription">
+                        <!-- Description goes here -->
+                    </div>
+                    <div class="modal-action">
+                        <a href="#" class="modal-link-btn" id="modalLink" target="_blank">View Project <i
+                                class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Javascripts -->
+    <script src="js/jquery.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/ai-assistant.js"></script>
+
+    <!-- Custom Scripts: Filtering & Modal -->
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            // Navigation Link Transition Handler
+            const navLinks = document.querySelectorAll('.nav-link');
+            navLinks.forEach(link => {
+                link.addEventListener('click', function (e) {
+                    const href = this.getAttribute('href');
+                    // Don't prevent default for same page links or external links
+                    if (href === '#' || href === window.location.pathname || href.startsWith('http')) {
+                        return;
+                    }
+
+                    e.preventDefault();
+
+                    // Show transition loader
+                    if (typeof showTransitionLoader === 'function') {
+                        showTransitionLoader();
+                    } else {
+                        // Fallback: show the initial loader
+                        const loader = document.getElementById('loader');
+                        if (loader) {
+                            loader.style.display = 'flex';
+                            loader.style.opacity = '1';
+                            loader.style.visibility = 'visible';
+                        }
+                    }
+
+                    // Navigate after a short delay to let the loader show
+                    setTimeout(function () {
+                        window.location.href = href;
+                    }, 700);
+                });
+            });
+
+            // 1. Filtering Logic
+            const filterBtns = document.querySelectorAll('.premium-filters a');
+            const projects = document.querySelectorAll('.project-card');
+
+            filterBtns.forEach(btn => {
+                btn.addEventListener('click', (e) => {
+                    e.preventDefault();
+
+                    // Update active button state
+                    filterBtns.forEach(b => b.classList.remove('active-filter'));
+                    btn.classList.add('active-filter');
+
+                    const filter = btn.getAttribute('data-filter');
+
+                    // First hide everything instantly
+                    projects.forEach(p => {
+                        p.classList.add('hide');
+                        p.style.transition = '';
+                        p.style.opacity = '';
+                        p.style.transform = '';
+                    });
+
+                    // Then reveal matching cards with staggered animation
+                    let delay = 0;
+                    projects.forEach(p => {
+                        if (filter === '*' || p.classList.contains(filter.replace('.', ''))) {
+                            setTimeout(() => {
+                                p.classList.remove('hide');
+                                p.style.opacity = '0';
+                                p.style.transform = 'translateY(20px)';
+                                p.style.transition = 'none';
+
+                                // Force browser reflow to register the display state change
+                                p.offsetHeight;
+
+                                // Apply smooth transition styles
+                                p.style.transition = 'opacity 0.4s cubic-bezier(0.4, 0, 0.2, 1), transform 0.4s cubic-bezier(0.4, 0, 0.2, 1)';
+                                p.style.opacity = '1';
+                                p.style.transform = 'translateY(0)';
+
+                                // Clean up inline styles after animation
+                                setTimeout(() => {
+                                    p.style.transition = '';
+                                    p.style.opacity = '';
+                                    p.style.transform = '';
+                                }, 450);
+                            }, delay);
+                            delay += 80;
+                        }
+                    });
+                });
+            });
+
+            // 2. Modal Logic
+            const modalOverlay = document.getElementById('projectModal');
+            const modalClose = document.getElementById('modalClose');
+            const modalMedia = document.getElementById('modalMedia');
+            const modalCategory = document.getElementById('modalCategory');
+            const modalTitle = document.getElementById('modalTitle');
+            const modalMeta = document.getElementById('modalMeta');
+            const modalDescription = document.getElementById('modalDescription');
+            const modalLink = document.getElementById('modalLink');
+
+            projects.forEach(card => {
+                card.addEventListener('click', (e) => {
+                    e.preventDefault();
+
+                    // Extract Data
+                    const title = card.getAttribute('data-title');
+                    const category = card.getAttribute('data-category');
+                    const desc = card.getAttribute('data-desc');
+                    const techStr = card.getAttribute('data-tech');
+                    const type = card.getAttribute('data-type');
+                    const src = card.getAttribute('data-src');
+                    const link = card.getAttribute('href');
+
+                    // Populate Data
+                    modalTitle.textContent = title;
+                    modalCategory.textContent = category;
+                    modalDescription.textContent = desc;
+                    modalLink.href = link;
+
+                    // Dynamic Link Text
+                    if (link.includes('github.com')) {
+                        modalLink.innerHTML = 'View on GitHub <i class="fa-brands fa-github"></i>';
+                    } else {
+                        modalLink.innerHTML = 'View Project <i class="fa-solid fa-arrow-right"></i>';
+                    }
+
+                    // Populate Tech Tags
+                    modalMeta.innerHTML = '';
+                    if (techStr) {
+                        techStr.split(',').forEach(tech => {
+                            const span = document.createElement('span');
+                            span.textContent = tech.trim();
+                            modalMeta.appendChild(span);
+                        });
+                    }
+
+                    // Populate Media
+                    modalMedia.innerHTML = '';
+                    if (type === 'video') {
+                        const video = document.createElement('video');
+                        video.src = src;
+                        video.autoplay = true;
+                        video.loop = true;
+                        video.muted = true;
+                        video.playsInline = true;
+                        modalMedia.appendChild(video);
+                    } else {
+                        const img = document.createElement('img');
+                        img.src = src;
+                        img.alt = title;
+                        modalMedia.appendChild(img);
+                    }
+
+                    // Show Modal with Animation
+                    modalOverlay.classList.add('active');
+                    document.body.style.overflow = 'hidden'; // Prevent background scrolling
+                });
+            });
+
+            // Close Modal Logic
+            const closeModal = () => {
+                modalOverlay.classList.remove('active');
+                document.body.style.overflow = '';
+                // Pause video if playing to save resources
+                const video = modalMedia.querySelector('video');
+                if (video) video.pause();
+            };
+
+            modalClose.addEventListener('click', closeModal);
+            modalLink.addEventListener('click', closeModal);
+            modalOverlay.addEventListener('click', (e) => {
+                if (e.target === modalOverlay) closeModal();
+            });
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'Escape' && modalOverlay.classList.contains('active')) closeModal();
+            });
+
+            // 3. Drag to Scroll Logic
+            const slider = document.getElementById('scrollWrapper');
+            let isDown = false;
+            let startX;
+            let scrollLeft;
+            let isDragging = false;
+
+            slider.addEventListener('mousedown', (e) => {
+                isDown = true;
+                isDragging = false;
+                slider.style.cursor = 'grabbing';
+                startX = e.pageX - slider.offsetLeft;
+                scrollLeft = slider.scrollLeft;
+            });
+
+            slider.addEventListener('mouseleave', () => {
+                isDown = false;
+                slider.style.cursor = 'grab';
+            });
+
+            slider.addEventListener('mouseup', () => {
+                isDown = false;
+                slider.style.cursor = 'grab';
+            });
+
+            slider.addEventListener('mousemove', (e) => {
+                if (!isDown) return;
+
+                const x = e.pageX - slider.offsetLeft;
+                const walk = (x - startX) * 2;
+
+                if (Math.abs(x - startX) > 5) {
+                    isDragging = true;
+                }
+
+                if (isDragging) {
+                    e.preventDefault();
+                    slider.scrollLeft = scrollLeft - walk;
+                }
+            });
+
+            // Prevent card clicks while dragging
+            projects.forEach(card => {
+                card.addEventListener('click', (e) => {
+                    if (isDragging) {
+                        e.preventDefault();
+                        e.stopImmediatePropagation();
+                    }
+                }, true);
+            });
+        });
+    </script>
+
+
+
+    <!-- Vanta.js Halo Background -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.halo.min.js"></script>
+    <script>
+        var setVanta = () => {
+            if (window.VANTA) window.VANTA.HALO({
+                el: "body",
+                mouseControls: true,
+                touchControls: true,
+                gyroControls: false,
+                minHeight: 200.00,
+                minWidth: 200.00
+            })
+        }
+        document.addEventListener('DOMContentLoaded', setVanta);
+    </script>
+</body>
+
+</html>

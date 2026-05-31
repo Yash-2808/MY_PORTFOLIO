@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1120" />
+      <stop offset="100%" stop-color="#141b38" />
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#12c2e9" />
+      <stop offset="100%" stop-color="#6f5de7" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffb400" />
+      <stop offset="100%" stop-color="#ff5f7a" />
+    </linearGradient>
+    <style>
+      .bg { fill: url(#bgGrad); }
+      .panel { fill: rgba(255, 255, 255, 0.08); stroke: rgba(255,255,255,0.12); stroke-width: 1; }
+      .text-title { font-family: 'Poppins', sans-serif; font-size: 58px; fill: #ffffff; font-weight: 800; letter-spacing: -0.02em; }
+      .text-sub { font-family: 'Poppins', sans-serif; font-size: 26px; fill: #d4d9ee; opacity: 0.9; }
+      .label { font-family: 'Poppins', sans-serif; font-size: 18px; fill: #c7d2fe; }
+      .value { font-family: 'Poppins', sans-serif; font-size: 22px; fill: #ffffff; font-weight: 700; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="800" class="bg" rx="40" />
+  <circle cx="320" cy="220" r="180" fill="rgba(255,255,255,0.04)" />
+  <circle cx="880" cy="190" r="160" fill="rgba(255,255,255,0.03)" />
+  <circle cx="800" cy="620" r="200" fill="rgba(255,255,255,0.05)" />
+
+  <rect x="140" y="140" width="420" height="520" rx="40" class="panel" />
+  <rect x="170" y="180" width="360" height="60" rx="30" fill="white" opacity="0.06" />
+  <circle cx="200" cy="210" r="12" fill="#ffb400" />
+  <circle cx="230" cy="210" r="12" fill="#6f5de7" />
+  <circle cx="260" cy="210" r="12" fill="#12c2e9" />
+  <rect x="170" y="260" width="360" height="110" rx="28" fill="url(#blueGrad)" opacity="0.15" />
+  <rect x="190" y="290" width="120" height="14" rx="7" fill="#d1e8ff" />
+  <rect x="190" y="320" width="170" height="14" rx="7" fill="#ecf4ff" />
+  <rect x="190" y="355" width="80" height="14" rx="7" fill="#c7e3ff" />
+  <rect x="190" y="400" width="240" height="24" rx="12" fill="#ffffff" opacity="0.18" />
+  <rect x="190" y="450" width="320" height="120" rx="24" fill="#0e1633" />
+  <rect x="210" y="474" width="120" height="14" rx="7" fill="#8fbdfd" />
+  <rect x="210" y="506" width="170" height="14" rx="7" fill="#dbe9ff" />
+  <rect x="210" y="538" width="240" height="14" rx="7" fill="#8fbdfd" />
+  <rect x="210" y="578" width="280" height="22" rx="11" fill="#12c2e9" />
+  <text x="260" y="596" class="label">Live Care</text>
+
+  <path d="M360 210h120v160h-120z" fill="rgba(255,255,255,0.06)" rx="26" />
+  <path d="M360 240h120v28h-120z" fill="#ffb400" rx="14" />
+  <path d="M360 288h120v18h-120z" fill="#ffffff" opacity="0.18" rx="9" />
+  <path d="M360 320h120v18h-120z" fill="#ffffff" opacity="0.18" rx="9" />
+  <path d="M360 352h88v18h-88z" fill="#dbe9ff" rx="9" />
+
+  <rect x="620" y="180" width="420" height="540" rx="48" fill="#0d1528" />
+  <rect x="660" y="230" width="340" height="470" rx="36" fill="#111a34" />
+  <rect x="690" y="270" width="280" height="380" rx="28" fill="#0b1120" />
+
+  <rect x="730" y="300" width="200" height="42" rx="21" fill="#12c2e9" />
+  <text x="760" y="332" class="label">Medie Genie</text>
+
+  <rect x="730" y="360" width="160" height="48" rx="16" fill="#14264d" />
+  <text x="760" y="393" class="value">Book Appointment</text>
+  <rect x="730" y="430" width="220" height="48" rx="16" fill="#162349" />
+  <text x="760" y="463" class="label">Emergency help in 1 tap</text>
+  <rect x="730" y="500" width="180" height="48" rx="16" fill="#162349" />
+  <text x="760" y="533" class="label">Remote doctor chat</text>
+
+  <g opacity="0.95">
+    <rect x="760" y="580" width="60" height="60" rx="18" fill="#0b1120" stroke="#12c2e9" stroke-width="2" />
+    <rect x="760" y="650" width="60" height="60" rx="18" fill="#0b1120" stroke="#ffb400" stroke-width="2" />
+    <rect x="834" y="580" width="60" height="60" rx="18" fill="#0b1120" stroke="#6f5de7" stroke-width="2" />
+    <rect x="834" y="650" width="60" height="60" rx="18" fill="#0b1120" stroke="#12c2e9" stroke-width="2" />
+  </g>
+
+  <rect x="160" y="680" width="420" height="80" rx="30" fill="#111a33" opacity="0.9" />
+  <text x="190" y="729" class="text-sub">Emergency services, records, home tests and doctor chat in one app.</text>
+
+  <text x="170" y="90" class="text-title">Medie Genie App</text>
+  <text x="170" y="140" class="text-sub">Healthcare platform for appointments, remote care and records management.</text>
+
+  <g transform="translate(730,550)">
+    <rect x="0" y="0" width="100" height="100" rx="28" fill="#0d1638" stroke="#12c2e9" stroke-width="3" />
+    <path d="M50 22c-12 0-22 10-22 22s10 22 22 22 22-10 22-22-10-22-22-22zm0 6c8 0 14 6 14 14s-6 14-14 14-14-6-14-14 6-14 14-14z" fill="#12c2e9" />
+    <path d="M50 50v22m-10-10h22" stroke="#12c2e9" stroke-width="6" stroke-linecap="round" />
+  </g>
+
+</svg>
