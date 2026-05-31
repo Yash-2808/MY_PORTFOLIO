@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Portfolio Preview](images/Screenshot 2026-05-31 143753.png)
+<img src="images/Screenshot 2026-05-31 143753.png" alt="Portfolio Preview" />
 
 **A premium, fully responsive personal portfolio website featuring glassmorphic UI, interactive 3D backgrounds, AI-powered chat assistant, and smooth page transitions.**
 
