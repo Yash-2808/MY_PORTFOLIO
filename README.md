@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Portfolio Preview](images/preview.png)
+![Portfolio Preview](images\Screenshot 2026-05-31 143753.png)
 
 **A premium, fully responsive personal portfolio website featuring glassmorphic UI, interactive 3D backgrounds, AI-powered chat assistant, and smooth page transitions.**
 
